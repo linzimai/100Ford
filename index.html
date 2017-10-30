@@ -23,6 +23,7 @@
         </head>
         
         <body>
+            
             <div id="mySidenav" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <a href="#">Home</a>
@@ -35,14 +36,12 @@
             </div>
             <span style="font-size:30px;cursor:pointer;padding-left:15px;" onclick="openNav()">&#9776;</span>
             
-            <!--VIDEO ATTEMPT
             <video id="my-video" class="video" muted loop>
-            <source src="media/demo.mp4" type="video/mp4">
-            <source src="media/d emo.ogv" type="video/ogg">
-            <source src="media/demo.webm" type="video/webm">
-            </video>-->
+                <source src="assets/indexvid.mp4" type="video/mp4">
+                <source src="assets/indexvid.ogg" type="video/ogg">
+                <source src="assets/indexvid.webm" type="video/webm">
+            </video>
             
-        
             <script>
                 function openNav() {
                     document.getElementById("mySidenav").style.width = "250px";
@@ -52,6 +51,15 @@
                     document.getElementById("mySidenav").style.width = "0";
                     document.getElementById("main").style.marginLeft = "0"; 
 }
+            </script>
+            
+            <script>
+                (function() {
+                 var video = document.getElementById ("my-video") ;
+                 video.addEventListener("canplay", function() {
+                   video.play();
+                 });
+                })();
             </script>
             
             <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
