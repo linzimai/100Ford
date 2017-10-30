@@ -1,12 +1,33 @@
 /* ============================================================
   SECTIONS
 ============================================================ */
+.nav-wrapper {
+    background-color: #000;
+    font-family: 'Permanent Marker',  cursive;
+}
+
+.nav-wrapper li a {
+    color: #ffffff;
+}
+
+.nav-wrapper li a:hover{
+    color: grey;
+}
+
+.dropdown-content li a{
+    color: black;
+}
+
+.dropdown-content li a:hover{
+    color: grey;
+}
+
 section.module:last-child {
   margin-bottom: 0;
 }
 section.module h2 {
   margin-bottom: 40px;
-  font-family: "Roboto Slab", serif;
+  font-family: 'Permanent Marker', cursive;
   font-size: 30px;
 }
 section.module p {
@@ -19,8 +40,10 @@ section.module p:last-child {
 }
 section.module.content {
   padding: 40px 0;
+  background-color: lightgrey;
 }
-section.module.parallax {
+section.module.parallax { 
+  padding: 0px; 
   height: 600px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -31,6 +54,8 @@ section.module.parallax {
   background-size: cover;
 }
 section.module.parallax h1 {
+  padding-top: 0px;
+  margin-top: 0px;
   color: rgba(255, 255, 255, 0.8);
   font-size: 48px;
   line-height: 600px;
@@ -40,16 +65,16 @@ section.module.parallax h1 {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 section.module.parallax-1 {
-  background-image: url("../100Ford/assets/para1.JPG");
+  background-image: url("../assets/para1.JPG");
 }
 section.module.parallax-2 {
-  background-image: url("../100Ford/assets/para2.JPG");
+  background-image: url("../assets/para2.JPG");
 }
 section.module.parallax-3 {
-  background-image: url("../100Ford/assets/para3.JPG");
+  background-image: url("../assets/para3.JPG");
 }
 section.module.parallax-4 {
-  background-image: url("../100Ford/assets/para4.JPG")
+  background-image: url("../assets/para4.JPG")
 }
 
 @media all and (min-width: 600px) {
