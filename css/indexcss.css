@@ -2,7 +2,7 @@
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 2;
+    z-index: 3;
     top: 0;
     left: 0;
     background-color: #111;
@@ -11,19 +11,19 @@
     padding-top: 60px;
 }
 
-.sidenav a {
+.sidenav a  {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
     display: block;
     transition: 0.3s;
-    z-index: 2;
+    z-index: 3;
 }
 
 .sidenav a:hover {
     color: #f1f1f1;
-    z-index: 2;
+    z-index: 3;
 }
 
 .sidenav .closebtn {
@@ -32,7 +32,12 @@
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-    z-index: 2;
+    z-index: 3;
+}
+
+#main{
+    transition: margin-left .5s;
+    padding: 16px;
 }
 
 }
@@ -54,4 +59,26 @@
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+
+.openbtn {
+    overflow: hidden;
+    position: absolute;
+    font-size: 30px;
+    cursor: pointer;
+    color: black;
+    left: 0%;
+    top: 2%;
+    z-index: 2;
+}
+
+.logo {
+    position: fixed;
+    top: 75%;
+    left: 75%;
+    z-index: 3;
+    -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+    
 }
