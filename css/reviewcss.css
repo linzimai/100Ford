@@ -1,6 +1,24 @@
 .main{
     background-color: darkgray;
-    margin: 0px;
+    margin: -15px;
+    text-align: center; 
+}
+
+.main2 {
+    background-color: lightgray;
+    margin: -20px;
+    text-align: center; 
+}
+
+.main3 {
+    background-color: darkgray;
+    margin: -20px;
+    text-align: center;
+}
+
+.main4{
+    background-color: lightgray;
+    margin: -20px;
     text-align: center; 
 }
 
