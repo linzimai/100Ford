@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .main{
     background-color: darkgray;
     margin: -15px;
@@ -119,4 +123,53 @@
     color: rgba(255, 255, 255, 0.8);
     text-transform: uppercase;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+.main {
+    padding: 25px;
+}
+
+.main img {
+    margin: 0;
+}
+
+.main2 {
+    padding: 25px;
+    padding-bottom: 0px;
+}
+
+.main2 img {
+    margin: 0;
+}
+
+.main3 {
+    padding: 25px;
+    padding-bottom: 0px;
+}
+
+.main3 img {
+    margin: 0;
+}
+
+.main4 {
+    padding: 25px;
+    padding-bottom: 0px;
+}
+
+.main4 img {
+    margin: 0;
+}
+
+.main-text {
+    text-align: left;
+}
+
+@media all and (max-width: 600px) {
+    .banner-text h1 {
+        font-size: 60px;
+    }
+    
+    .banner-text {
+        top: 15%;
+    }
 }
