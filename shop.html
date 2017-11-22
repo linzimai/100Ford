@@ -56,14 +56,78 @@
               <div class="container">
                   <div class="row">
                       <div class="col s12 m4 l4">
-                          <div class="item-image">
-                              <img src="assets/clothingtemplate.jpg">
+                          <img class="item-image" src="assets/clothingtemplate.jpg">
+                          <a href="#modal1"><p class="item-name">Item Name</p></a>
+                          <p class="item-price">£xx.xx</p>
+                      </div>
+                      <div id="#modal1" class="modal">
+                          <div class="modal-content">
+                              <h4>Modal Header</h4>
+                              <p>A bunch of text</p>
                           </div>
+                          <div class="modal-footer">
+                              <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+                          </div>
+                      </div>
+                      <div class="col s12 m4 l4">
+                          <img class="item-image" src="assets/clothingtemplate.jpg">
+                          <p class="item-name">Item Name</p>
+                          <p class="item-price">£xx.xx</p>
+                      </div>
+                      <div class="col s12 m4 l4">
+                          <img class="item-image" src="assets/clothingtemplate.jpg">
                           <p class="item-name">Item Name</p>
                           <p class="item-price">£xx.xx</p>
                       </div>
                   </div>
+                  <div class="row">
+                      <div class="col s12 m4 l4">
+                          <img class="item-image" src="assets/clothingtemplate.jpg">
+                          <p class="item-name">Item Name</p>
+                          <p class="item-price">£xx.xx</p>
+                      </div>
+                      <div class="col s12 m4 l4">
+                          <img class="item-image" src="assets/clothingtemplate.jpg">
+                          <p class="item-name">Item Name</p>
+                          <p class="item-price">£xx.xx</p>
+                      </div>
+                      <div class="col s12 m4 l4">
+                          <img class="item-image" src="assets/clothingtemplate.jpg">
+                          <p class="item-name">Item Name</p>
+                          <p class="item-price">£xx.xx</p>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col s12 m4 l4">
+                          <img class="item-image" src="assets/clothingtemplate.jpg">
+                          <p class="item-name">Item Name</p>
+                          <p class="item-price">£xx.xx</p>
+                      </div>
+                      <div class="col s12 m4 l4">
+                          <img class="item-image" src="assets/clothingtemplate.jpg">
+                          <p class="item-name">Item Name</p>
+                          <p class="item-price">£xx.xx</p>
+                      </div>
+                      <div class="col s12 m4 l4">
+                          <img class="item-image" src="assets/clothingtemplate.jpg">
+                          <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Item Name</a>
+                          <div id="modal1" class="modal">
+                              <div class="modal-content">
+                                  <h4>Modal Header</h4>
+                                  <p>A bunch of text</p>
+                              </div>
+                              <div class="modal-footer">
+                                  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+                              </div>
+                          </div>
+                          <!--<p class="item-name">Item Name</p>-->
+                          <p class="item-price">£xx.xx</p>
+                      </div>
+  <!-- Modal Structure -->
+          
+                  </div>
               </div>
+              
           
           
           </div>
@@ -91,5 +155,10 @@
       
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
         <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('#modal1').modal();
+            }); 
+        </script>
       </body>
 </html>
