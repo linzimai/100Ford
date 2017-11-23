@@ -1,0 +1,153 @@
+.nav-wrapper {
+    background-color: #000;
+    font-family: 'Permanent Marker',  cursive;
+}
+
+.brand-logo {
+    margin-left: 10px; 
+}
+
+.nav-wrapper li a {
+    color: #ffffff;
+}
+
+.nav-wrapper li a:hover{
+    color: grey;
+}
+
+.dropdown-content li a{
+    color: black;
+}
+
+.dropdown-content li a:hover{
+    color: grey;
+}
+
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module h2 {
+  margin-bottom: 40px;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 30px;
+}
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 40px 0;
+  background-color: lightgrey;
+}
+section.module.parallax { 
+  padding: 0px; 
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section.module.parallax h1 {
+  padding-top: 0px;
+  margin-top: 0px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 42px;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+section.module.parallax-1 {
+  background-image: url("../assets/alloy1.jpg");
+}
+section.module.parallax-2 {
+  background-image: url("../assets/sideshot.JPG");
+}
+section.module.parallax-3 {
+  background-image: url("../assets/alloy3.JPG");
+}
+section.module.parallax-4 {
+  background-image: url("../assets/alloy4.JPG")
+}
+
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+  }
+  section.module p {
+    font-size: 20px;
+  }
+  section.module.parallax h1 {
+    font-size: 96px;
+  }
+}
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 160px;
+  }
+}
+.page-footer {
+    background-color: #000;
+    font-family: 'Permanent Marker',  cursive;
+    float: center;
+}
+
+.page-footer .col {
+    text-align: center;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+.collapsible-body img {
+    text-align: center;
+}
+
+.collapsible-header {
+    background-color: #efefef;
+}
+
+/* Set a specific color for each brand */
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+    background: #fb3958;
+    color: white; 
+}
+
+/* Google */
+.fa-google {
+    background: #db3236;
+    color: white; 
+}
+
+.videos {
+    padding: 10px; 
+}

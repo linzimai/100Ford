@@ -1,6 +1,5 @@
 body {
     overflow-x: hidden;
-    padding-bottom: 0px;
 }
 
 .nav-wrapper {
@@ -77,7 +76,6 @@ body {
 
 .main{
     background-color: grey;
-    padding-bottom: 1px;
 }
 
 .btn {
@@ -89,10 +87,12 @@ body {
     background-color: darkred; 
 }
 
+}
 .page-footer {
     background-color: #000;
     font-family: 'Permanent Marker',  cursive;
     float: center;
+    margin-bottom: 0px;
 }
 
 .page-footer .col {
