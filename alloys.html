@@ -108,13 +108,53 @@
             <p>If you want to save some time, there is always the option of professional refurbing. There are multiple places around the West Midlands that can do this for you. Concluding reviews and seeing the results of some of the alloys which come out of this place, JP Alloys is one of the best refurb companies out there and are located as shown below:</p>
             <div id="map" style="width:100%;height:400px;"></div>
             <script>
-                function myMap() {
-                    var myCenter = new google.maps.LatLng(52.6782226,-2.0522829);
-                    var mapCanvas = document.getElementById("map");
-                    var mapOptions = {center: myCenter, zoom: 5};
-                    var map = new google.maps.Map(mapCanvas, mapOptions);
-                    var marker = new google.maps.Marker({position:myCenter});
-                    marker.setMap(map);
+                function initMap() {
+
+                    var location1 = {
+                        info: '<strong>JP Alloys Ltd</strong><br>\
+                                    Virage Park<br> Cannock, WS11 0NH<br>\
+                                    <a href="https://goo.gl/4sCxaE">Get Directions</a>',
+                        lat: 52.676764,
+                        long: -2.0249049
+                    };
+
+                    var location2 = {
+                        info: '<strong>Hot Wheelz</strong><br>\
+                                    T.Wall Business Park<br> Kingswinford, DY6 8XB<br>\
+                                    <a href="https://goo.gl/JoaU3T">Get Directions</a>',
+                        lat: 52.5023604,
+                        long: -2.1437794
+                    };
+
+
+                    var locations = [
+                      [location1.info, location1.lat, location1.long, 0],
+                      [location2.info, location2.lat, location2.long, 1],
+                    ];
+
+                    var map = new google.maps.Map(document.getElementById('map'), {
+                        zoom: 9,
+                        center: new google.maps.LatLng(52.6782226, -2.0522829),
+                        mapTypeId: google.maps.MapTypeId.ROADMAP
+                    });
+
+                    var infowindow = new google.maps.InfoWindow({});
+
+                    var marker, i;
+
+                    for (i = 0; i < locations.length; i++) {
+                        marker = new google.maps.Marker({
+                            position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+                            map: map
+                        });
+
+                        google.maps.event.addListener(marker, 'click', (function (marker, i) {
+                            return function () {
+                                infowindow.setContent(locations[i][0]);
+                                infowindow.open(map, marker);
+                            }
+                        })(marker, i));
+                    }
                 }
             </script>
             <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjoAk-Vumc_5sYaeEmCQHBePdHGhnSO-0&callback=myMap"></script>
