@@ -99,6 +99,7 @@ body {
     text-align: center;
 }
 
+
 /* Style all font awesome icons */
 .fa {
     padding: 20px;
@@ -108,6 +109,10 @@ body {
     text-decoration: none;
     border-radius: 50%;
     margin: 10px;
+}
+
+.input-field {
+     color: ##ef0007;
 }
 
 /* Add a hover effect if you want */

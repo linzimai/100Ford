@@ -65,19 +65,33 @@
                                   <img src="assets/mug.jpg">
                               </div>
                               <div class="card-content">
-                                  <p>£xx.xx</p>
+                                  <p>£8.99</p>
                               </div>
                               <div class="card-action">
-                                  <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Item Name</a>
+                                  <a class="waves-effect waves-light btn modal-trigger" href="#modal1">PREVIEW</a>
                               </div>
                           </div>
                           <div id="modal1" class="modal">
                               <div class="modal-content">
-                                  <h4>Modal Header</h4>
-                                  <p>A bunch of text</p>
+                                  <h4 class="modal-header">100% Ford Mug</h4>
+                                  <img src="assets/mug.jpg">
+                                  <p>Showcase your favourite Ford Group with this 100% Ford Mug. Whether it be a tea in bed or a hot drink in the office, this mug will serve its purpose.</p>
+                                  <ul>
+                                      <p><b>Material: </b>Ceramic</p>
+                                      <p><b>Size: </b>215 x 80mm</p>
+                                      <p><b>Qualities: </b>Dishwasher Proof and Can Hold a Mean Cup Of Tea.</p>
+                                  </ul>
+                                  <a class='dropdown-button btn' href='#' data-activates='dropdown4'>QUANTITY</a>
+                                  <ul id='dropdown4' class='dropdown-content'>
+                                      <li><a onclick="Materialize.toast('ONE MUG IN CART', 4000)" href="#!">ONE</a></li>
+                                      <li><a onclick="Materialize.toast('TWO MUGS IN CART', 4000)" href="#!">TWO</a></li>
+                                      <li><a onclick="Materialize.toast('THREE MUGS IN CART', 4000)" href="#!">THREE</a></li>
+                                      <li><a onclick="Materialize.toast('FOUR MUGSS IN CART', 4000)" href="#!">FOUR</a></li>
+                                  </ul>
+                                  <p><b>DISCLAMER:</b> If you are requiring more than the shown quantities, contact us.</p>
                               </div>
                               <div class="modal-footer">
-                                  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+                                  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
                               </div>
                           </div>
                       </div>
@@ -226,6 +240,24 @@
                 $('#modal5').modal();
                 $('#modal6').modal();
             }); 
+        </script>
+        <script>
+            $('.dropdown-button').dropdown({
+                inDuration: 300,
+                outDuration: 225,
+                constrainWidth: false, // Does not change width of dropdown to that of the activator
+                hover: false, // Activate on hover
+                gutter: 0, // Spacing from edge
+                alignment: 'left', // Displays dropdown with edge aligned to the left of button
+                stopPropagation: false // Stops event propagation
+            }
+                                          ); 
+          
+        </script>
+        <script>
+            $(document).ready(function() {
+                $('select').material_select();
+            });
         </script>
       </body>
 </html>
