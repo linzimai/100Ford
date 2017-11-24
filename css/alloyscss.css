@@ -72,10 +72,10 @@ section.module.parallax-2 {
   background-image: url("../assets/sideshot.JPG");
 }
 section.module.parallax-3 {
-  background-image: url("../assets/alloy3.JPG");
+  background-image: url("../assets/eibach.jpg");
 }
 section.module.parallax-4 {
-  background-image: url("../assets/alloy4.JPG")
+  background-image: url("../assets/mk2alloys.jpg")
 }
 
 @media all and (min-width: 600px) {
