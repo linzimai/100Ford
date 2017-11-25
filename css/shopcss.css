@@ -99,6 +99,10 @@ body {
     text-align: center;
 }
 
+.modal-header {
+    font-family: 'Permanent Marker',  cursive;
+}
+
 
 /* Style all font awesome icons */
 .fa {
@@ -109,10 +113,6 @@ body {
     text-decoration: none;
     border-radius: 50%;
     margin: 10px;
-}
-
-.input-field {
-     color: ##ef0007;
 }
 
 /* Add a hover effect if you want */
