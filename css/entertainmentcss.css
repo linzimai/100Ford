@@ -3,6 +3,30 @@
     font-family: 'Permanent Marker',  cursive;
 }
 
+.main {
+    padding: 25px;
+}
+
+.title{
+    margin: 0px;
+    top: 5%;
+    text-align: center;
+}
+
+.header-fit{
+    font-family: 'Permanent Marker',  cursive;
+}
+
+.main img {
+    margin: 0;
+}
+
+.main{
+    background-color: darkgray;
+    margin: -0.1px;
+    text-align: center; 
+}
+
 .banner {
     width: 100%;
     display: block;
@@ -102,4 +126,14 @@ section.module:last-child {
 
 .videos {
     padding: 10px; 
+}
+
+@media all and (max-width: 600px) {
+    .banner-text h1 {
+        font-size: 60px;
+    }
+    
+    .banner-text {
+        top: 17%;
+    }
 }

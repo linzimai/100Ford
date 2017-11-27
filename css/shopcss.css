@@ -139,3 +139,13 @@ body {
     background: #db3236;
     color: white; 
 }
+
+@media all and (max-width: 600px) {
+    .banner-text h1 {
+        font-size: 60px;
+    }
+    
+    .banner-text {
+        top: 25%;
+    }
+}

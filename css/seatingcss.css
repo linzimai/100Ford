@@ -130,3 +130,13 @@
 .videos {
     padding: 10px; 
 }
+
+@media all and (max-width: 600px) {
+    .banner-text h1 {
+        font-size: 60px;
+    }
+    
+    .banner-text {
+        top: 17%;
+    }
+}
