@@ -2,6 +2,12 @@ body {
     overflow-x: hidden;
 }
 
+.responsive-img{
+    width: 400px;
+    height: 600px;
+    padding-bottom: 20px;
+}
+
 .main{
     background-color: darkgray;
     margin: -15px;
@@ -160,9 +166,6 @@ body {
     margin: 0;
 }
 
-.main-text {
-    text-align: left;
-}
 
 @media all and (max-width: 600px) {
     .banner-text h1 {
