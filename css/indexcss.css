@@ -96,7 +96,7 @@
 
 @media all and (min-width: 600px) {
     body {
-        background-image: "../assets/indexbg.jpg";
+        background-image: url("../assets/indexbg.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
