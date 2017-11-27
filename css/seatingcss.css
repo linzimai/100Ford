@@ -54,6 +54,10 @@
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
 }
 
+.bullet-point {
+    text-align: center;
+}
+
 .main {
     padding: 25px;
     background-color: lightgrey;
