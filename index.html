@@ -37,11 +37,15 @@
             <div id="main">
                 <span class="openbtn" style="font-size:30px;cursor:pointer;padding-left:15px;" onclick="openNav()">&#9776;</span>
 
-                <div class="logo">
+                <div class="hide-on-small-only logo">
                     <img src="assets/logo.png">
                 </div>
+              
+              <div class="show-on-small background">
+                    <img class="logo" src="assets/logo.png">
+              </div>
                 
-                <video id="my-video" class="video" muted loop>
+                <video id="my-video" class="video hide-on-small-only" muted loop>
                     <source src="assets/indexvid.mp4" type="video/mp4">
                     <source src="assets/indexvid.ogg" type="video/ogg">
                     <source src="assets/indexvid.webm" type="video/webm">
