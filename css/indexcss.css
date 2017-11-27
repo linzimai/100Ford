@@ -96,6 +96,9 @@
 
 @media all and (min-width: 600px) {
     body {
-        background-color: #990000;
+        background-image: "../assets/indexbg.jpg";
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
