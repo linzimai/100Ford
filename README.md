@@ -10,16 +10,11 @@
     <br>
 </p>
 
-## Table of Contents
-- [Quickstart](#quickstart)
-- [Documentation](#documentation)
-- [Supported Browsers](#supported-browsers)
-- [Changelog](#changelog)
-- [Testing](#testing)
-- [Contributing](#contributing)
-- [Copyright and license](#copyright-and-license)
+## Index
+- Video Based
+- HTML, CSS and JS used
 
-## Quickstart:
+## Engine Mods
 Read the [getting started guide](http://materializecss.com/getting-started.html) for more information on how to use materialize.
 
 - [Download the latest release](https://github.com/Dogfalo/materialize/releases/latest) of materialize directly from GitHub.
