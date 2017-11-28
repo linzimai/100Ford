@@ -6,9 +6,7 @@
   <h3 align="center">MaterializeCSS</h3>
 
   <p align="center">
-    Materialize, a CSS Framework based on material design.
-    <br>
-    <a href="http://materializecss.com/"><strong>-- Browse the docs --</strong></a>
+    100% Ford, made via Materialize, a CSS Framework based on material design.
     <br>
 </p>
 
