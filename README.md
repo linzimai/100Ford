@@ -15,41 +15,45 @@
 - HTML, CSS and JS used
 
 ## Engine Mods
-Read the [getting started guide](http://materializecss.com/getting-started.html) for more information on how to use materialize.
+- CSS Parallax
+- HTML, CSS and JS used
 
-- [Download the latest release](https://github.com/Dogfalo/materialize/releases/latest) of materialize directly from GitHub.
-- Clone the repo: `git clone https://github.com/Dogfalo/materialize.git`
-- Include the files via [cdnjs](https://cdnjs.com/libraries/materialize). More [here](http://materializecss.com/getting-started.html).
-- Install with [npm](https://www.npmjs.com): `npm install materialize-css`
-- Install with [Bower](https://bower.io): `bower install materialize`
-- Install with [Atmosphere](https://atmospherejs.com): `meteor add materialize:materialize`
+## Alloy Mods
+- CSS Parallax
+-Embedded Google Maps
+-HTML, CSS and JS used
 
-## Documentation
-The documentation can be found at <http://materializecss.com>. To run the documentation locally on your machine, you need [Node.js](https://nodejs.org/en/) installed on your computer.
+### Seating and Comfort
+- CSS Carousel
+- Materialize Centered Table
+- HTML, CSS and JS used
 
-### Running documentation locally
-Run these commands to set up the documentation:
+### Interior Entertainment
+- Materialize Reveal Cards
+- Responsive Banner
+- HTML, CSS and JS used
 
-```bash
-git clone https://github.com/Dogfalo/materialize
-cd materialize
-npm install
-```
+## Review
+- Materialboxed Images
+- Responsive Images
+- HTML, CSS and JS used
 
-Then run `grunt monitor` to compile the documentation. When it finishes, open a new browser window and navigate to `localhost:8000`. We use [BrowserSync](https://www.browsersync.io/) to display the documentation.
+## Clothing Shop
+- Materialize Modal
+- Materialize Dialogues/ Toast's
+- HTML, CSS and JS used
 
-### Documentation for previous releases
-Previous releases and their documentation are available for [download](https://github.com/Dogfalo/materialize/releases).
+## Car Shop
+- Materialize Modal
+- Materialize Dialogues/ Toast's
+- HTML, CSS and JS used
 
 ## Supported Browsers:
-Materialize is compatible with:
+100% Ford is compatible with:
 
 - Chrome 35+
-- Firefox 31+
 - Safari 7+
-- Opera
 - Edge
-- IE 10+
 
 ## Changelog
 For changelogs, check out [the Releases section of materialize](https://github.com/Dogfalo/materialize/releases) or the [CHANGELOG.md](CHANGELOG.md).
