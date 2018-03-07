@@ -97,15 +97,15 @@
         </div>
         <div class="input-field col s6">
             <i class="material-icons prefix">chat_bubble</i>
-          <input id="icon_telephone" type="tel" class="validate">
-          <label for="icon_telephone">Password</label>
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Password</label>
         </div>
         </div>
         <div class="row">
           <div class="input-field col s12">
           <i class="material-icons prefix">contact_mail</i>
-          <input id="icon_telephone" type="tel" class="validate">
-          <label for="icon_telephone">Email</label>
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Email</label>
         </div>
         </div>
     </form>
