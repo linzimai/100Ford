@@ -114,3 +114,23 @@
   </div>
     </body>
 </html>
+<footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col s12">
+                <h5 class="white-text">FIND AND CONTACT US ON SOCIAL MEDIA</h5>
+                  <ul>
+                  <a href="https://twitter.com/official100ford" class="fa fa-twitter"></a>
+                  <a href="https://www.instagram.com/official100ford/?hl=en" class="fa fa-instagram"></a>
+                  <a href="https://plus.google.com/u/0/102788440268858728741" class="fa fa-google"></a>
+                </ul>
+                <img src="assets/logofooter.png">  
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © Copyright Linzi Gould
+            </div>
+          </div>
+        </footer>
