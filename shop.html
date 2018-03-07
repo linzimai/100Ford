@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/><link type="text/css" rel="stylesheet" href="css/shopcss.css"/>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
+      </head>
+      
+      <body>
+      <nav>
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a href="enginemods.html">Engine Modifications</a></li>
+            <li><a href="alloys.html">Alloy Modifications</a></li>
+        </ul>
+          <ul id="dropdown2" class="dropdown-content">
+            <li><a href="seating.html">Seating and Comfort</a></li>
+            <li><a href="entertainment.html">Interior Entertainment</a></li>
+        </ul>
+        <ul id="dropdown3" class="dropdown-content">
+            <li><a href="shop.html">Clothing</a></li>
+            <li><a href="carshop.html">Car Accessories</a></li>
+        </ul>
+        <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo">100% Ford</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Exterior<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Interior<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a href="review.html">Review</a></li>
+                <li><a class="dropdown-button" href="#!" data-activates="dropdown3">Shop<i class="material-icons right">arrow_drop_down</i></a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="enginemods.html">Engine Modifications</a></li>
+                <li><a href="alloys.html">Alloy Modifications</a></li>
+                <li><a href="seating.html">Seating and Comfort</a></li>
+                <li><a href="entertainment.html">Interior Entertainment</a></li>
+                <li><a href="review.html">Review</a></li>
+                <li><a href="shop.html">Shop</a></li>
+            </ul>
+        </div>
+          </nav>
+          
+          <div class="banner">
+                <img class="bannerpic" src="assets/reviewbanner.jpg"> 
+            <div class="banner-text">
+                <h1>Shop</h1>
+                <p>Clothing</p>
+            </div>
+          </div>
+          
+          <div class="main">
+              <div class="container">
+                  <div class="row">
+                      <div class="col s12 m4 l4">
+                          <div class="card">
+                              <div class="card-image">
+                                  <img src="assets/mug.jpg">
+                              </div>
+                              <div class="card-content">
+                                  <p><b>100% Ford Mug</b></p>
+                                  <p>£8.99</p>
+                              </div>
+                              <div class="card-action">
+                                  <a class="waves-effect waves-light btn modal-trigger" href="#modal1">PREVIEW</a>
+                              </div>
+                          </div>
+                          <div id="modal1" class="modal">
+                              <div class="modal-content">
+                                  <h4 class="modal-header">100% Ford Mug</h4>
+                                  <img src="assets/mugmodal.jpg">
+                                  <p>Showcase your favourite Ford Group with this 100% Ford Mug. Whether it be a tea in bed or a hot drink in the office, this mug will serve its purpose.</p>
+                                  <ul>
+                                      <p><b>Material: </b>Ceramic</p>
+                                      <p><b>Size: </b>215 x 80mm</p>
+                                      <p><b>Qualities: </b>Dishwasher Proof and Can Hold a Mean Cup Of Tea.</p>
+                                  </ul>
+                                  <a class='dropdown-button btn' href='#' data-activates='dropdown4'>QUANTITY</a>
+                                  <ul id='dropdown4' class='dropdown-content'>
+                                      <li><a onclick="Materialize.toast('ONE MUG IN CART', 4000)" href="#!">ONE</a></li>
+                                      <li><a onclick="Materialize.toast('TWO MUGS IN CART', 4000)" href="#!">TWO</a></li>
+                                      <li><a onclick="Materialize.toast('THREE MUGS IN CART', 4000)" href="#!">THREE</a></li>
+                                      <li><a onclick="Materialize.toast('FOUR MUGS IN CART', 4000)" href="#!">FOUR</a></li>
+                                  </ul>
+                                  <p><b>DISCLAMER:</b> If you are requiring more than the shown quantities, contact us.</p>
+                              </div>
+                              <div class="modal-footer">
+                                  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col s12 m4 l4">
+                          <div class="card">
+                              <div class="card-image">
+                                  <img src="assets/fordshirt.jpg">
+                              </div>
+                              <div class="card-content">
+                                  <p><b>100% Ford Shirt</b></p>
+                                  <p>£10.00</p>
+                              </div>
+                              <div class="card-action">
+                                  <a class="waves-effect waves-light btn modal-trigger" href="#modal2">Preview</a>
+                              </div>
+                          </div>
+                          <div id="modal2" class="modal">
+                              <div class="modal-content">
+                                  <h4 class="modal-header">100% Ford Tee</h4>
+                                  <img src="assets/modalshirt.jpg">
+                                  <p>What a way to rep your favourite ford group then our 100% Ford Tee? Let people know where you belong and who you support with this simple tee.</p>
+                                  <ul>
+                                      <p><b>Material: </b>100% Cotton</p>
+                                      <p><b>Weight: </b>150g/m²(141g/m² White)*</p>
+                                  </ul>
+                                  <a class='dropdown-button btn' href='#' data-activates='dropdown5'>SIZE</a>
+                                  <ul id='dropdown5' class='dropdown-content'>
+                                      <li><a onclick="Materialize.toast('SMALL SHIRT IN CART', 4000)" href="#!">SMALL</a></li>
+                                      <li><a onclick="Materialize.toast('MEDIUM SHIRT IN CART', 4000)" href="#!">MEDIUM</a></li>
+                                      <li><a onclick="Materialize.toast('LARGE SHIRT IN CART', 4000)" href="#!">LARGE</a></li>
+                                      <li><a onclick="Materialize.toast('XLARGE SHIRT IN CART', 4000)" href="#!">XLARGE</a></li>
+                                  </ul>
+                                  <p><b>DISCLAMER:</b> If you are requiring more than the shown quantities, contact us.</p>
+                                  <p><b>Sizing Help:</b></p>
+                                  <table class="striped">
+                                      <thead>
+                                          <tr>
+                                              <th>Men</th>
+                                              <th>Women</th>
+                                          </tr>
+                                      </thead>
+                                      <tbody>
+                                          <tr>
+                                              <td>Small: 34-36</td>
+                                              <td>Small: 6-8</td>
+                                          </tr>
+                                          <tr>
+                                              <td>Medium: 38-40</td>
+                                              <td>Medium: 8-10</td>
+                                          </tr>
+                                          <tr>
+                                              <td>Large: 42-44</td>
+                                              <td>Large: 10-12</td>
+                                          </tr>
+                                          <tr>
+                                              <td>XLarge: 46-48</td>
+                                              <td>XLarge: 12-14</td>
+                                          </tr>
+                                          <tr>
+                                              <td>XXLarge: 50-52</td>
+                                              <td>XXLarge: 14-16</td>
+                                          </tr>
+                                      </tbody>
+                                  </table>
+                              </div>
+                              <div class="modal-footer">
+                                  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col s12 m4 l4">
+                          <div class="card">
+                              <div class="card-image">
+                                  <img src="assets/fordlanyard.jpg">
+                              </div>
+                              <div class="card-content">
+                                  <p><b>100% Ford Lanyard</b></p>
+                                  <p>£5.50</p>
+                              </div>
+                              <div class="card-action">
+                                  <a class="waves-effect waves-light btn modal-trigger" href="#modal3">Preview</a>
+                              </div>
+                          </div>
+                          <div id="modal3" class="modal">
+                              <div class="modal-content">
+                                  <h4 class="modal-header">100% Ford Lanyard</h4>
+                                  <img src="assets/lanyardmodal.jpg">
+                                  <p>If you're out and want to keep your keys safe, this 100% Ford Lanyard will do just the job. With a strong material and huge claps, it will carry whatever you want.</p>
+                                  <ul>
+                                      <p><b>Material: </b>100% Nylon</p>
+                                      <p><b>Attachment: </b>Trigger Clip</p>
+                                  </ul>
+                                  <a class='dropdown-button btn' href='#' data-activates='dropdown6'>QUANTITY</a>
+                                  <ul id='dropdown6' class='dropdown-content'>
+                                      <li><a onclick="Materialize.toast('ONE LANYARD IN CART', 4000)" href="#!">ONE</a></li>
+                                      <li><a onclick="Materialize.toast('TWO LANYARDS IN CART', 4000)" href="#!">TWO</a></li>
+                                      <li><a onclick="Materialize.toast('THREE LANYARDS IN CART', 4000)" href="#!">THREE</a></li>
+                                      <li><a onclick="Materialize.toast('FOUR LANYARDS IN CART', 4000)" href="#!">FOUR</a></li>
+                                  </ul>
+                                  <p><b>DISCLAMER:</b> If you are requiring more than the shown quantities, contact us.</p>
+                              </div>
+                              <div class="modal-footer">
+                                  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col s12 m4 l4">
+                          <div class="card">
+                              <div class="card-image">
+                                  <img src="assets/fordcap.JPG">
+                              </div>
+                              <div class="card-content">
+                                  <p><b>Offical Ford Cap</b></p>
+                                  <p>£11.50</p>
+                              </div>
+                              <div class="card-action">
+                                  <a class="waves-effect waves-light btn modal-trigger" href="#modal4">Preview</a>
+                              </div>
+                          </div>
+                          <div id="modal4" class="modal">
+                              <div class="modal-content">
+                                  <h4 class="modal-header">Offical Ford Cap</h4>
+                                  <img src="assets/capmodal.JPG">
+                                  <p>Whether its to wear it for fashion, or show off your favourite car, this Ford Cap is the best way to show off your love of Ford.</p>
+                                  <ul>
+                                      <p><b>Material: </b>100% Polyester</p>
+                                      <p><b>Attachment: </b>Galvanised Steel Rear Clasp</p>
+                                  </ul>
+                                  <a class='dropdown-button btn' href='#' data-activates='dropdown7'>QUANTITY</a>
+                                  <ul id='dropdown7' class='dropdown-content'>
+                                      <li><a onclick="Materialize.toast('ONE CAP IN CART', 4000)" href="#!">ONE</a></li>
+                                      <li><a onclick="Materialize.toast('TWO CAPS IN CART', 4000)" href="#!">TWO</a></li>
+                                      <li><a onclick="Materialize.toast('THREE CAPS IN CART', 4000)" href="#!">THREE</a></li>
+                                      <li><a onclick="Materialize.toast('FOUR CAPS IN CART', 4000)" href="#!">FOUR</a></li>
+                                  </ul>
+                                  <p><b>DISCLAMER:</b> If you are requiring more than the shown quantities, contact us.</p>
+                              </div>
+                              <div class="modal-footer">
+                                  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                              </div>
+                          </div>
+                      </div>    
+                      <div class="col s12 m4 l4">
+                          <div class="card">
+                              <div class="card-image">
+                                  <img src="assets/fordbag.jpg">
+                              </div>
+                              <div class="card-content">
+                                  <p><b>Team RS Bag</b></p>
+                                  <p>£8.00</p>
+                              </div>
+                              <div class="card-action">
+                                  <a class="waves-effect waves-light btn modal-trigger" href="#modal5">Preview</a>
+                              </div>
+                          </div>
+                          <div id="modal5" class="modal">
+                              <div class="modal-content">
+                                  <h4 class="modal-header">Team RS Bag</h4>
+                                  <img src="assets/bagmodal.jpg">
+                                  <p>What a way to carry your belongings than this Team RS bag. With tightening straps its the best Ford Bag to keeping your belongings safe and water damage free.</p>
+                                  <ul>
+                                      <p><b>Material: </b>50% Polyester; 50% Nylon</p>
+                                  </ul>
+                                  <a class='dropdown-button btn' href='#' data-activates='dropdown8'>QUANTITY</a>
+                                  <ul id='dropdown8' class='dropdown-content'>
+                                      <li><a onclick="Materialize.toast('ONE BAG IN CART', 4000)" href="#!">ONE</a></li>
+                                      <li><a onclick="Materialize.toast('TWO BAGS IN CART', 4000)" href="#!">TWO</a></li>
+                                      <li><a onclick="Materialize.toast('THREE BAGS IN CART', 4000)" href="#!">THREE</a></li>
+                                      <li><a onclick="Materialize.toast('FOUR BAGS IN CART', 4000)" href="#!">FOUR</a></li>
+                                  </ul>
+                                  <p><b>DISCLAMER:</b> If you are requiring more than the shown quantities, contact us.</p>
+                              </div>
+                              <div class="modal-footer">
+                                  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                              </div>
+                          </div>
+                      </div>    
+                      <div class="col s12 m4 l4">
+                          <div class="card">
+                              <div class="card-image">
+                                  <img src="assets/fordkeyring.JPG">
+                              </div>
+                              <div class="card-content">
+                                  <p><b>Ford Keyring</b></p>
+                                  <p>£5.00</p>
+                              </div>
+                              <div class="card-action">
+                                  <a class="waves-effect waves-light btn modal-trigger" href="#modal6">Preview</a>
+                              </div>
+                          </div>
+                          <div id="modal6" class="modal">
+                              <div class="modal-content">
+                                  <h4 class="modal-header">Ford Keyring</h4>
+                                  <img src="assets/keyringmodal.jpg">
+                                  <p>Enhance your keys with this full leather keyring. This is a chance for you boys and girls to show off your favourite Ford with this large keyring at your pocket.</p>
+                                  <ul>
+                                      <p><b>Material: </b>100% Leather</p>
+                                      <p><b>Icon: </b>Acrylic</p>
+                                  </ul>
+                                  <div class="input-field">
+                                      <input color="Placeholder" id="first_name" type="text" class="validate">
+                                      <label for="first_name">Colour Desired:</label>
+                                  </div>
+                                  <a class='dropdown-button btn' href='#' data-activates='dropdown9'>QUANTITY</a>
+                                  <ul id='dropdown9' class='dropdown-content'>
+                                      <li><a onclick="Materialize.toast('ONE KEYRING IN CART', 4000)" href="#!">ONE</a></li>
+                                      <li><a onclick="Materialize.toast('TWO KEYRINGS IN CART', 4000)" href="#!">TWO</a></li>
+                                      <li><a onclick="Materialize.toast('THREE KEYRINGS IN CART', 4000)" href="#!">THREE</a></li>
+                                      <li><a onclick="Materialize.toast('FOUR KEYRINGS IN CART', 4000)" href="#!">FOUR</a></li>
+                                  </ul>
+                                  <p><b>DISCLAMER:</b> If you are requiring more than the shown quantities, contact us.</p>
+                              </div>
+                              <div class="modal-footer">
+                                  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                              </div>
+                          </div>
+                      </div>    
+                  </div>
+              </div>
+          </div>
+          <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col s12">
+                <h5 class="white-text">FIND AND CONTACT US ON SOCIAL MEDIA</h5>
+                  <ul>
+                  <a href="https://twitter.com/official100ford" class="fa fa-twitter"></a>
+                  <a href="https://www.instagram.com/official100ford/?hl=en" class="fa fa-instagram"></a>
+                  <a href="https://plus.google.com/u/0/102788440268858728741" class="fa fa-google"></a>
+                </ul>
+                <img src="assets/logofooter.png">  
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © Copyright Linzi Gould
+            </div>
+          </div>
+        </footer>
+      
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('#modal1').modal();
+                $('#modal2').modal();
+                $('#modal3').modal();
+                $('#modal4').modal();
+                $('#modal5').modal();
+                $('#modal6').modal();
+            }); 
+        </script>
+        <script>
+            $('.dropdown-button').dropdown({
+                inDuration: 300,
+                outDuration: 225,
+                constrainWidth: false, // Does not change width of dropdown to that of the activator
+                hover: false, // Activate on hover
+                gutter: 0, // Spacing from edge
+                alignment: 'left', // Displays dropdown with edge aligned to the left of button
+                stopPropagation: false // Stops event propagation
+            }
+                                          ); 
+          
+        </script>
+        <script>
+            $(document).ready(function() {
+                $('select').material_select();
+            });
+        </script>
+          <script>
+            $(".button-collapse").sideNav();
+        </script>
+      </body>
+</html>
