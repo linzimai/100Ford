@@ -132,3 +132,8 @@
             </div>
           </div>
         </footer>
+<script>
+$(document).ready(function() {
+    Materialize.updateTextFields();
+  });
+</script>
