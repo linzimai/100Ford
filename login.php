@@ -88,7 +88,7 @@
           </div>
           <div class="row">
     <form class="col s12">
-        <h2>Welcome to 100% Ford Login Page</h2>
+        <div class="login-header">Welcome to 100% Ford Login Page</div>
       <div class="row">
         <div class="input-field col s6">
           <i class="material-icons prefix">account_circle</i>
