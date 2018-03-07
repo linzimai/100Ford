@@ -80,6 +80,10 @@
     font-family: 'Permanent Marker',  cursive;
 }
 
+form{
+    text-align: center;
+}
+
 .page-footer {
     background-color: #000;
     font-family: 'Permanent Marker',  cursive;
