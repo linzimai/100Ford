@@ -93,7 +93,7 @@
         <div class="input-field col s6">
           <i class="material-icons prefix">account_circle</i>
           <input name="icon_prefix" type="text" class="validate">
-          <label for="icon_prefix"></label>
+          <label for="icon_prefix">Username</label>
         </div>
         <div class="input-field col s6">
             <i class="material-icons prefix">chat_bubble</i>
