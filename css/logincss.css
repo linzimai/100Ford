@@ -62,7 +62,6 @@
     text-align: center;
 }
 
-
 .main-text {
     text-align: left;
 }
@@ -75,6 +74,10 @@
 
 .main-text2 {
     padding: 25px;
+}
+
+.welcome {
+    font-family: 'Permanent Marker',  cursive;
 }
 
 .page-footer {
