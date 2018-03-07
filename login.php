@@ -88,8 +88,8 @@
           </div>
           <div class="row">
     <form class="col s12">
+        <h2>Welcome to 100% Ford Login Page</h2>
       <div class="row">
-          <p>Welcome to 100% Ford Login</p>
         <div class="input-field col s6">
           <i class="material-icons prefix">account_circle</i>
           <input id="icon_prefix" type="text" class="validate">

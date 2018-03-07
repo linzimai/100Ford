@@ -91,6 +91,12 @@
     text-align: center;
 }
 
+.h2 {
+  margin-bottom: 40px;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 30px;
+}
+
 /* Style all font awesome icons */
 .fa {
     padding: 20px;
