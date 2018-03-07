@@ -83,7 +83,7 @@
           <div class="banner">
                 <img class="bannerpic" src="assets/reviewbanner.jpg"> 
             <div class="banner-text">
-                <h1>100% FORD LOGIN</h1>  
+                <h1>LOGIN</h1>  
             </div>
           </div>
     </body>
