@@ -91,12 +91,6 @@
     text-align: center;
 }
 
-.h2 {
-  margin-bottom: 40px;
-  font-family: 'Permanent Marker', cursive;
-  font-size: 30px;
-}
-
 /* Style all font awesome icons */
 .fa {
     padding: 20px;
@@ -106,6 +100,10 @@
     text-decoration: none;
     border-radius: 50%;
     margin: 10px;
+}
+
+.welcome {
+    font-family: 'Permanent Marker',  cursive;
 }
 
 /* Add a hover effect if you want */
