@@ -92,19 +92,19 @@
       <div class="row">
         <div class="input-field col s6">
           <i class="material-icons prefix">account_circle</i>
-          <input id="icon_prefix" type="text" class="validate">
+          <input name="icon_prefix" type="text" class="validate">
           <label for="icon_prefix">Username</label>
         </div>
         <div class="input-field col s6">
             <i class="material-icons prefix">chat_bubble</i>
-          <input id="icon_prefix" type="text" class="validate">
+          <input name="icon_prefix" type="text" class="validate">
           <label for="icon_prefix">Password</label>
         </div>
         </div>
         <div class="row">
           <div class="input-field col s12">
           <i class="material-icons prefix">contact_mail</i>
-          <input id="icon_prefix" type="text" class="validate">
+          <input name="icon_prefix" type="text" class="validate">
           <label for="icon_prefix">Email</label>
         </div>
         </div>
